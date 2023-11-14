@@ -8,7 +8,7 @@ class MovieRentalStore
             'F001' => (object) ['title' => 'Ran', 'code' => 'regular'],
             'F002' => (object) ['title' => 'Trois Couleurs: Bleu', 'code' => 'regular'],
             'F003' => (object) ['title' => 'Cars 2', 'code' => 'childrens'],
-            'F004' => (object) ['title' => 'Avengers', 'code' => 'Oppenheimer']];
+            'F004' => (object) ['title' => 'Oppenheimer', 'code' => 'new']];
         //EXERCISE NOTE: add more movies if you need
         $totalAmount = 0;
         $frequentRenterPoints = 0;
@@ -39,7 +39,6 @@ class MovieRentalStore
             $frequentRenterPoints++;
             // add bonus for a two day new release rental
             if ($movie->code === 'new' && $r->days > 2) $frequentRenterPoints++;
-
             //print figures for this rental
             $result .= "\t$movie->title\t$thisAmount\n";
             $totalAmount += $thisAmount;
