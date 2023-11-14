@@ -1,1 +1,1 @@
-{"version":1,"defects":{"SalaryTests::testOne":7},"times":{"MovieRentalStoreTest::testOne":0.055,"SalaryTests::testOne":0.002,"SalaryTest::testOne":0.003}}
+{"version":1,"defects":{"SalaryTests::testOne":7,"MovieRentalStoreTest::testTwo":7,"MovieRentalStoreTest::testOne":7,"MovieRentalStoreTest::testThree":7},"times":{"MovieRentalStoreTest::testOne":0.001,"SalaryTests::testOne":0.002,"SalaryTest::testOne":0.002,"MovieRentalStoreTest::testTwo":0.002,"MovieRentalStoreTest::testThree":0.001}}
